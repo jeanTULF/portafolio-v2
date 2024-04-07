@@ -8,7 +8,13 @@ export default {
     extend: {
       colors: {
         primaryDark: '#212121',
-        secondaryDark: '#1484F5'
+        secondaryDark: '#1484F5',
+        textDark: '#F5F5F5',
+        gradient: {
+          900: '#2B2B2B',
+          700: '#1C1C1C',
+        },
+        borderDark: '#494949'
       }
     },
   },
