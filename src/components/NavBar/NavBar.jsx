@@ -5,7 +5,7 @@ export const NavBar = () => {
     return (
         <Navbar className="bg-primaryDark drop-shadow-md w-full sticky top-0 z-50" fluid>
             <Navbar.Brand as={NavLink} to="/" className="w-2/12 max-w-48 min-w-28">
-                <img src="/src/assets/img/logo.svg" alt="logo" />
+                <img src="/assets/img/logo.svg" alt="logo" />
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
