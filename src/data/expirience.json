@@ -1,0 +1,12 @@
+[
+    {
+      "logo": "/assets/images/nclogo.png",
+      "description": "A través de No Country, pude tomar una experiencia enriquecedora y gratificante. Trabajar en un equipo multidisciplinario para desarrollar una aplicación integral como Hiupy, un inventario de comida me permitió aplicar y mejorar mis habilidades de desarrollo de software, así como mi capacidad para colaborar de manera efectiva con otros profesionales. Actualmente me encuentro desarrollando un segundo proyecto que tiene por nombre: Libralia",
+      "url": "https://www.nocountry.tech"
+    },
+    {
+      "logo": "/assets/images/aluralogo.png",
+      "description": "Después de estudiar Front-End en Alura, experimenté un aprendizaje práctico y profundo. Los videos de alta calidad y los ejercicios prácticos me permitieron dominar los fundamentos del desarrollo web. La comunidad activa en la plataforma brindó apoyo y colaboración. Al completar el curso, obtuve un certificado y la oportunidad de demostrar mis habilidades en un proyecto final evaluado, preparándome para desafíos reales en mi carrera como desarrollador web.",
+      "url": "https://www.aluracursos.com"
+    }
+  ]

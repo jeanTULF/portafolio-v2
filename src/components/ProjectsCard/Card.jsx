@@ -2,8 +2,10 @@
 import { Button, Card } from "flowbite-react";
 import { NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
+import dataCard from "@/data/card.json";
+import { Tags } from "./Tags";
 
-export const Cards = ({img, alt, title, description, rute}) => {
+export const Cards = () => {
 
   const [shouldAddHorizontal, setShouldAddHorizontal] = useState(false);
 
@@ -30,22 +32,35 @@ export const Cards = ({img, alt, title, description, rute}) => {
   }, [shouldAddHorizontal]);
 
     return (
-        <Card
-          id="card"
-          className="max-w-sm bg-gradient-900"
-          imgAlt={alt}
-          imgSrc={img}
-          theme={{ root: {base: 'flex rounded-lg border border-borderDark bg-gradient-to-b from-gradient-900 to-gradient-700 drop-shadow-md dark:border-gray-700 dark:bg-gray-800 transition-transform ease-in duration-300 transform hover:scale-105'} }}
-          horizontal={shouldAddHorizontal ? true : null}
-        >
-          <h5 className="text-2xl font-bold tracking-tight text-white">
-            {title}
-          </h5>
-          <p className="font-normal text-gray-400">
-            {description}
-          </p>
-          <Button as={NavLink} to={rute}>Ver proyecto</Button>
-        </Card>
+      <>
+        {dataCard.map((item, index) => (
+          <div key={index}>
+                <Card
+                id="card"
+                className="max-w-sm bg-gradient-to-b from-cardGradient-secondary to-cardGradient-primary drop-shadow-sm border border-borderColor border-opacity-30"
+                imgAlt={item.alt}
+                imgSrc={item.img}
+                theme={{ root: {base: 'flex rounded-lg dark:border-gray-700 transition-transform ease-in duration-300 transform hover:scale-105'}, img: {horizontal: {off: 'rounded-t-lg object-cover h-52 drop-shadow-sm'}} }}
+                horizontal={shouldAddHorizontal ? true : null}
+                >
+                <h5 className="text-2xl font-bold tracking-tight text-titleAccent">
+                  {item.title}
+                </h5>
+                <p className="font-normal text-textAccent">
+                  {item.description}
+                </p>
+                <Button as={NavLink} to="" className="bg-textAccent hover:bg-titleAccent transition duration-300">Ver proyecto</Button>
+                <div className="flex gap-2 flex-wrap mt-3">
+                    {item.badges.map((badge, index) => (
+                        <div key={index} >
+                            <Tags badge={badge} />
+                        </div>
+                    ))}
+                </div>
+              </Card>
+          </div>
+      ))}
+      </>
       );
 };
   

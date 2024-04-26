@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "img": "/assets/images/minuatura-hiupy.png",
+    "alt": "hiupy",
+    "title": "Hiupy",
+    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "badges": ["React", "JavaScript", "Tailwind", "Fetch API"]
+  },
+  {
+    "id": 2,
+    "img": "/assets/images/miniatura-org.png",
+    "alt": "org project",
+    "title": "Org",
+    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "badges": ["React", "JavaScript", "Css"]
+  },
+  {
+    "id": 3,
+    "img": "/assets/images/miniatura-alurageek.png",
+    "alt": "alurageek",
+    "title": "AluraGeek",
+    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "badges": ["HTML", "JavaScript", "Css"]
+  },
+  {
+    "id": 4,
+    "img": "/assets/images/miniatura-portafolio.png",
+    "alt": "portafolio",
+    "title": "Portafolio V1",
+    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "badges": ["HTML", "Css", "JavaScript" ]
+  },
+  {
+    "id": 5,
+    "img": "/assets/images/miniatura-encriptador.png",
+    "alt": "encriptador",
+    "title": "Encriptador",
+    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "badges": ["HTML", "Css", "JavaScript"]
+  }
+]
+
+  
