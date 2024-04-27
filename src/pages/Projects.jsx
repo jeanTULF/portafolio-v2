@@ -1,6 +1,5 @@
-import { NavBar } from "@/components/NavBar/NavBar";
-import { Cards } from "../components/ProjectsCard/Card";
-import { ExpCard } from "../components/ExpCard/ExperienceCard";
+import { NavBar, Cards, ExpCard, Contact } from "@/components";
+
 export const Projects = () => {
     return(
         <> 
@@ -14,6 +13,9 @@ export const Projects = () => {
                 <section className="mt-[100px] flex flex-col items-center">
                     <h3 className="font-semibold text-2xl text-titleAccent">Formación y experiencias</h3>
                     <ExpCard />
+                </section>
+                <section className="mt-[100px]">
+                    <Contact />
                 </section>
             </div>
         </>

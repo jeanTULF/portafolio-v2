@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "img": "/assets/images/miniatura-libralia.jpg",
+    "alt": "Libralia",
+    "title": "Libralia",
+    "description": "Libralia, página web para lectura de libros digitales",
+    "badges": ["React", "JavaScript", "Tailwind", "Axios"]
+  },
+  {
+    "id": 2,
     "img": "/assets/images/minuatura-hiupy.png",
     "alt": "hiupy",
     "title": "Hiupy",
@@ -8,7 +16,7 @@
     "badges": ["React", "JavaScript", "Tailwind", "Fetch API"]
   },
   {
-    "id": 2,
+    "id": 3,
     "img": "/assets/images/miniatura-org.png",
     "alt": "org project",
     "title": "Org",
@@ -16,7 +24,7 @@
     "badges": ["React", "JavaScript", "Css"]
   },
   {
-    "id": 3,
+    "id": 4,
     "img": "/assets/images/miniatura-alurageek.png",
     "alt": "alurageek",
     "title": "AluraGeek",
@@ -24,7 +32,7 @@
     "badges": ["HTML", "JavaScript", "Css"]
   },
   {
-    "id": 4,
+    "id": 5,
     "img": "/assets/images/miniatura-portafolio.png",
     "alt": "portafolio",
     "title": "Portafolio V1",
@@ -32,7 +40,7 @@
     "badges": ["HTML", "Css", "JavaScript" ]
   },
   {
-    "id": 5,
+    "id": 6,
     "img": "/assets/images/miniatura-encriptador.png",
     "alt": "encriptador",
     "title": "Encriptador",
