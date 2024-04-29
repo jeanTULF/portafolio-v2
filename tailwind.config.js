@@ -30,7 +30,8 @@ export default {
             secondary: '#EAF2FF'
           },
           borderColor: '#D8D9E0',
-          borderOpacity: '#5a5c631a'
+          borderOpacity: '#5a5c631a',
+          formGradient: '#b9c3e11a'
         }
     },
   },

@@ -1,4 +1,5 @@
 import { NavBar, Cards, ExpCard, Contact } from "@/components";
+import { Footer } from "../components/Footer/Footer";
 
 export const Projects = () => {
     return(
@@ -16,6 +17,10 @@ export const Projects = () => {
                 </section>
                 <section className="mt-[100px]">
                     <Contact />
+                </section>
+                <section className="mt-[100px] flex flex-col items-center pb-[100px]">
+                    <hr className="border border-titleAccent my-6 w-[80%]" />
+                    <Footer />
                 </section>
             </div>
         </>
