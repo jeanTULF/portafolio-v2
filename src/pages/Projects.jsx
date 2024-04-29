@@ -1,5 +1,4 @@
-import { NavBar, Cards, ExpCard, Contact } from "@/components";
-import { Footer } from "../components/Footer/Footer";
+import { NavBar, Cards, ExpCard, Contact, Footer } from "@/components";
 
 export const Projects = () => {
     return(

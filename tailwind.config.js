@@ -31,7 +31,8 @@ export default {
           },
           borderColor: '#D8D9E0',
           borderOpacity: '#5a5c631a',
-          formGradient: '#b9c3e11a'
+          formGradient: '#b9c3e11a',
+          textLight: '#8B8D98'
         }
     },
   },

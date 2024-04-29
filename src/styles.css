@@ -22,3 +22,39 @@
 .svg-hover:hover {
     transform: scale(1.2); 
   }
+
+.textSize {
+    font-size: clamp(1.25rem, 7vw + 1rem, 3.75rem);
+}
+
+.slider {
+    width: 40vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    display: flex;
+    animation: scroll 15s linear infinite;
+    -webkit-animation: scroll 10s linear infinite;
+    width: calc(50px * 14);
+    gap: 50px;
+}
+
+.slider .slide {
+    width: 50px;
+}
+
+.slider .slide img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-50px * 7));
+    }
+}

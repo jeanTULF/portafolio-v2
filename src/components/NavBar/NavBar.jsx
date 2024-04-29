@@ -9,8 +9,8 @@ export const NavBar = () => {
             </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
-                <Navbar.Link as={NavLink} to="/proyectos" className="text-titleAccent hover:text-slate-300 ">Proyectos</Navbar.Link>
-                <Navbar.Link as={NavLink} to="/About" className="text-titleAccent">Acerca de mi</Navbar.Link>
+                <Navbar.Link as={NavLink} to="/" className="text-titleAccent hover:text-slate-300 ">Proyectos</Navbar.Link>
+                <Navbar.Link as={NavLink} to="/about" className="text-titleAccent">Acerca de mi</Navbar.Link>
             </Navbar.Collapse>
 
             <Navbar.Collapse>
