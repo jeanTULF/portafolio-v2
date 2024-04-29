@@ -4,7 +4,7 @@ export const ExpCard = () => {
   return (
     <>
       {data.map((item, index) => (
-        <div key={index} className="flex flex-col mt-14 w-5/12 min-w-[370px] py-5 rounded-lg border border-borderColor border-opacity-20 bg-gradient-to-b from-cardGradient-secondary to-cardGradient-primary drop-shadow-sm dark:border-gray-700 dark:bg-gray-800 transition-transform ease-in duration-300 transform hover:scale-105">
+        <div key={index} className="flex flex-col mt-14 w-5/12 min-w-[370px] py-5 rounded-lg border border-borderColor border-opacity-20 bg-gradient-to-b from-cardGradient-secondary to-cardGradient-primary drop-shadow-sm transition-transform ease-in duration-300 transform hover:scale-105">
           <div className="flex justify-between px-10 items-center"> 
             <img src={item.logo} alt="" className="max-w-32 drop-shadow-md" /> 
             <div className="flex gap-2">

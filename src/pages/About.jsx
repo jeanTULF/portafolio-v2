@@ -1,4 +1,4 @@
-import { NavBar, Contact, Footer, Profile, ProfileTec } from "@/components";
+import { NavBar, Contact, Footer, Profile, ProfileTec, ProfileHobbies } from "@/components";
 export const About = () => {
 
 return (
@@ -10,6 +10,9 @@ return (
                 </section>
                 <section className="mt-[100px]">
                     <ProfileTec />
+                </section>
+                <section className="my-[100px]">
+                    <ProfileHobbies />
                 </section>
                 <section className="mt-[100px]">
                     <Contact />
