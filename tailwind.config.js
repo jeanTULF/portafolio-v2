@@ -4,6 +4,7 @@ export default {
     "./src/**/*.{html,js,jsx}",
   'node_modules/flowbite-react/lib/esm/**/*.js',  
 ],
+"darkMode": "class",
   theme: {
     extend: {
         colors: {
