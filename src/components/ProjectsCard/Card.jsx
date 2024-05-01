@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { Button, Card } from "flowbite-react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import dataCard from "@/data/card.json";
 import { Tags } from "./Tags";
@@ -8,6 +8,12 @@ import { Tags } from "./Tags";
 export const Cards = () => {
 
   const [shouldAddHorizontal, setShouldAddHorizontal] = useState(false);
+
+  const navigate = useNavigate();
+
+    const handleNavigate = (id) => {
+        navigate(`/project/${id}`);
+    };
 
   useEffect(() => {
     function handleResize() {
@@ -49,7 +55,7 @@ export const Cards = () => {
                 <p className="font-normal text-textAccent">
                   {item.description}
                 </p>
-                <Button as={NavLink} to="" className="bg-textAccent hover:bg-titleAccent transition duration-300">Ver proyecto</Button>
+                <Button as={NavLink} onClick={() => handleNavigate(item.id)} className="bg-textAccent hover:bg-titleAccent transition duration-300">Ver proyecto</Button>
                 <div className="flex gap-2 flex-wrap mt-3">
                     {item.badges.map((badge, index) => (
                         <div key={index} >

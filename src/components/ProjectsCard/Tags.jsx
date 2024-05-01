@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Badge } from "flowbite-react";
 
 

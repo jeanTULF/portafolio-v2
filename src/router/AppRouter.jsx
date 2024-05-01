@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { About, ErrorPage, Projects } from "../pages";
+import { About, ErrorPage, Projects, ViewProject } from "../pages";
 
 export const router = createBrowserRouter([
     {
@@ -10,5 +10,9 @@ export const router = createBrowserRouter([
     {
         path: "/about",
         element: <About />
+    },
+    {
+        path: "/project/:id",
+        element: <ViewProject />
     }
 ])

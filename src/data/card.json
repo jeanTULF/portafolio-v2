@@ -5,7 +5,12 @@
     "alt": "Libralia",
     "title": "Libralia",
     "description": "Libralia, página web para lectura de libros digitales",
-    "badges": ["React", "JavaScript", "Tailwind", "Axios"]
+    "badges": ["React", "JavaScript", "Tailwind", "Axios"],
+    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
+    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"],
+    "deploy": "https://libralia.vercel.app",
+    "repo": "https://github.com/No-Country/s14-14-n-java",
+    "highlight": "lorem ipsum"
   },
   {
     "id": 2,
@@ -13,7 +18,9 @@
     "alt": "hiupy",
     "title": "Hiupy",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
-    "badges": ["React", "JavaScript", "Tailwind", "Fetch API"]
+    "badges": ["React", "JavaScript", "Tailwind", "Fetch API"],
+    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
+    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
   },
   {
     "id": 3,
@@ -21,7 +28,9 @@
     "alt": "org project",
     "title": "Org",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
-    "badges": ["React", "JavaScript", "Css"]
+    "badges": ["React", "JavaScript", "Css"],
+    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
+    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
   },
   {
     "id": 4,
@@ -29,7 +38,9 @@
     "alt": "alurageek",
     "title": "AluraGeek",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
-    "badges": ["HTML", "JavaScript", "Css"]
+    "badges": ["HTML", "JavaScript", "Css"],
+    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
+    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
   },
   {
     "id": 5,
@@ -37,7 +48,9 @@
     "alt": "portafolio",
     "title": "Portafolio V1",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
-    "badges": ["HTML", "Css", "JavaScript" ]
+    "badges": ["HTML", "Css", "JavaScript" ],
+    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
+    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
   },
   {
     "id": 6,
@@ -45,7 +58,9 @@
     "alt": "encriptador",
     "title": "Encriptador",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
-    "badges": ["HTML", "Css", "JavaScript"]
+    "badges": ["HTML", "Css", "JavaScript"],
+    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
+    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
   }
 ]
 
