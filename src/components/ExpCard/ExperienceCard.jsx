@@ -4,8 +4,12 @@ export const ExpCard = () => {
   return (
     <>
       {data.map((item, index) => (
-        <div key={index} className="flex flex-col mt-14 w-5/12 min-w-[370px] py-5 rounded-lg border border-borderColor border-opacity-20 bg-gradient-to-b from-cardGradient-secondary to-cardGradient-primary drop-shadow-sm transition-transform ease-in duration-300 transform hover:scale-105">
-          <div className="flex justify-between px-10 items-center"> 
+        <div key={index} className="flex flex-col mt-14 w-[80vw] px-5 sm:px-12 py-5 lg:w-5/12 lg:min-w-[370px] lg:py-12 rounded-lg 
+        border border-borderColor border-opacity-20 bg-gradient-to-b 
+        from-cardGradient-secondary to-cardGradient-primary drop-shadow-sm 
+        transition-transform ease-in duration-300 transform hover:scale-105">
+
+          <div className="flex justify-between  items-center"> 
             <img src={item.logo} alt="" className="max-w-32 drop-shadow-md" /> 
             <div className="flex gap-2">
               <a href={item.url} className="text-textAccent">
@@ -20,7 +24,7 @@ export const ExpCard = () => {
               </a>
             </div>
           </div>   
-          <p className="mt-4 text-[10px] min-w-80 w-[37vw] overflow-y-auto md:text-sm pl-10 text-textAccent">{item.description}</p>
+          <p className="mt-4 text-xs w-full lg:min-w-80 lg:w-[37vw] overflow-y-auto md:text-sm text-textAccent">{item.description}</p>
         </div>
       ))}
     </>

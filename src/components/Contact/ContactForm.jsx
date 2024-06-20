@@ -5,7 +5,7 @@ export const ContactForm = () => {
 return (
         <>
             <div className="flex flex-col flex-grow bg-gradient-to-b from-cardGradient-secondary to-formGradient px-10 py-20 rounded-lg gap-10 "> 
-                <ul className="grid grid-cols-2 gap-10">
+                <ul className="flex flex-col sm:grid grid-cols-2 gap-10">
                     <li className="flex-grow">
                         <div className="mb-2 block">
                             <Label htmlFor="base" value="Nombre"  className="text-textAccent font-semibold text-base"/>

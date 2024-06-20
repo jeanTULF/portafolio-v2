@@ -27,7 +27,7 @@ return (
                         <img src={img} alt={alt} className="max-w-[50rem] drop-shadow-md"/>
                             <div className="flex mt-24 gap-x-20">
                                 <Button href={deploy} target="_blank">
-                                    Deploy 
+                                    Ver Demo 
                                 </Button>
                                 <Button href={repo} target="_blank">
                                     Repositorio 
@@ -45,7 +45,7 @@ return (
                         </div>
                         <div className="p-4 border border-transparent rounded-lg shadow-sm">
                             <h2 className="text-xl text-titleAccent font-bold mb-2">Equipo</h2>
-                            <p>Contenido del equipo...</p>
+                            <p></p>
                         </div>
                         <div className="p-4 border border-transparent rounded-lg shadow-sm">
                             <h2 className="text-xl text-titleAccent font-bold mb-2">Tecnologías utilizadas</h2>
@@ -58,10 +58,19 @@ return (
                             })}
                         </div>
                     </section>
-                    <section className="flex flex-col items-center gap-6 my-[200px] rounded-xl bg-gradient-to-b from-cardGradient-primary to-cardGradient-secondary w-[60%] p-12">
+                    <section className="flex flex-col items-center gap-6 my-[200px] rounded-xl bg-gradient-to-b from-cardGradient-primary to-cardGradient-secondary max-w-[60%] p-12">
                         <h2 className="text-titleAccent font-semibold text-2xl">Puntos destacados</h2>
                         <p className="text-textAccent">{highlight}</p>
                             <h3 className="text-titleAccent font-semibold text-2xl">Capturas</h3>
+                            <ul className="flex flex-col gap-5 drop-shadow-md list-none">
+                                    {selectedProject.screenshots.map((img, index) => {
+                                        return(
+                                            <li key={index}>
+                                                <img src={img} alt="captura" className="w-[37.5rem] rounded-lg object-contain"/>
+                                            </li>
+                                        )
+                                    })}
+                            </ul>
                     </section>
             </div>
         </>

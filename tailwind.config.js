@@ -9,7 +9,8 @@ export default {
     extend: {
         colors: {
           primaryDark: '#212121',
-          secondaryDark: '#1484F5',
+          buttonDark: '#1484F5',
+          buttonHoverDark: '#235B9C',
           textDark: '#F5F5F5',
           gradient: {
             900: '#2B2B2B',
@@ -29,6 +30,10 @@ export default {
           cardGradient: {
             primary: '#FCFDFE',
             secondary: '#EAF2FF'
+          },
+          darkCardGradient: {
+            primary: '#2B2B2B',
+            secondary: '#1C1C1C'
           },
           borderColor: '#D8D9E0',
           borderOpacity: '#5a5c631a',

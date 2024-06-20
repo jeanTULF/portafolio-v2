@@ -19,6 +19,27 @@
     opacity: 0.4;
 }
 
+.buttonUi {
+    color: #3D63DD;
+    transition: .5s ease;
+    border-bottom: transparent;
+}
+
+.buttonUi:hover {
+    color: #8B8D98;
+    border-bottom: 1px solid #8B8D98;
+    animation: fillBorder .5s forwards;
+}
+
+@keyframes fillBorder {
+    0% {
+      border-width: 0;
+    }
+    100% {
+        border-width: 100%;
+    }
+  }
+
 .svg-hover:hover {
     transform: scale(1.2); 
   }

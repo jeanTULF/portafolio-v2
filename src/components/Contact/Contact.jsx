@@ -5,14 +5,14 @@ export const Contact = () => {
 return (
         <> 
             <div className="flex flex-col items-center w-full h-full gap-[50px] backgroundContact">
-                <div className=" py-12 w-[40%] flex flex-col items-center gap-5 z-10 drop-shadow-md">
-                    <h1 className="text-titleAccent font-bold text-5xl">Contactame</h1>
-                    <p className="text-textAccent text-regular text-center">
+                <div className=" py-12 flex flex-col items-center gap-5 z-10 drop-shadow-md w-[80%] md:w-[60%] lg:w-[40%]">
+                    <h1 className="text-titleAccent font-bold text-3xl sm:text-5xl">Contactame</h1>
+                    <p className="text-textAccent text-sm sm:text-base text-center">
                     Estoy entusiasmado de colaborar contigo y tu equipo en proyectos futuros. ¡Espero con interés nuestra próxima conversación sobre cómo podemos trabajar juntos!
                     </p>
                 </div>
                 <div className="flex flex-col items-center z-10 drop-shadow-md gap-5">
-                    <h1 className="text-titleAccent font-bold text-5xl">Redes</h1>
+                    <h1 className="text-titleAccent font-bold text-3xl sm:text-5xl">Redes</h1>
                     <ul className="flex gap-4 text-white">
                         <li>
                         <a href="#" className="hover:text-titleAccent transform transition duration-300">
@@ -37,7 +37,7 @@ return (
                         </li>
                     </ul>
                 </div>
-                <form className="z-10 w-[50%] py-12"> 
+                <form className="z-10 w-full sm:w-[80%] lg:w-[70%] lg:max-w-[700px] py-12"> 
                     <ContactForm />
                 </form>
             </div>

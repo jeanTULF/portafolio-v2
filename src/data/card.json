@@ -6,21 +6,35 @@
     "title": "Libralia",
     "description": "Libralia, página web para lectura de libros digitales",
     "badges": ["React", "JavaScript", "Tailwind", "Axios"],
-    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
     "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"],
+    "screenshots": [
+      "https://i.ibb.co/pK3kzMV/Mac-Book-Pro-1714600563625.jpg",
+      "https://i.ibb.co/kQjHJck/i-Pad-1714599942548.jpg",
+      "https://i.ibb.co/0BBW758/Mac-Book-Pro-1714028153921.jpg",
+      "https://i.ibb.co/18b8g19/Mac-Book-Pro-1714600672052.jpg"
+    ],
+    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
     "deploy": "https://libralia.vercel.app",
     "repo": "https://github.com/No-Country/s14-14-n-java",
-    "highlight": "lorem ipsum"
+    "highlight": "MVP realizado durante mi segunda instancia dentro de No Country en el que tuve la oportunidad de co-liderar el desarrollo de parte del equipo front-end. Adquirí experiencia significativa en el uso de React y apliqué el uso de React Flowbite, así como en la integración de API mediante Axios."
   },
   {
     "id": 2,
     "img": "/assets/images/minuatura-hiupy.png",
-    "alt": "hiupy",
+    "alt": "Hiupy",
     "title": "Hiupy",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
     "badges": ["React", "JavaScript", "Tailwind", "Fetch API"],
-    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
-    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
+    "tecnologies": ["React", "Vite", "Fetch", "Tailwind CSS"],
+    "screenshots": [
+      "https://i.ibb.co/r50NRfn/i-Phone-5-SE-1714600754972.jpg",
+      "https://i.ibb.co/Jvxb22y/i-Phone-X-1714600775777.jpg",
+      "https://i.ibb.co/MVs5Vf0/i-Phone-X-1714600790709.jpg"
+    ],
+    "extDescription": "(Versión en movil al momento) Hiupy simplifica la gestión de tu cocina al ofrecerte herramientas intuitivas para organizar tu inventario y planificar comidas deliciosas. Con Hiupy, puedes mantener un inventario completo de tus alimentos y productos de cocina, asegurándote de saber siempre lo que tienes a mano. Además, recibirás recomendaciones personalizadas de recetas basadas en los ingredientes que tienes disponibles en tu inventario, así como en tus preferencias alimentarias y restricciones dietéticas. Hiupy también te permite crear listas de compras inteligentes para que nunca te falten los ingredientes esenciales que necesitas para tus recetas. Descubre una forma más eficiente y creativa de cocinar con Hiupy!",
+    "deploy": "https://hiupy.vercel.app",
+    "repo": "https://github.com/No-Country/c16-04-m-node-react",
+    "highlight": "Durante el desarrollo de Hiupy, adquirí conocimientos avanzados sobre conexiones con API, uso de endpoints y comunicación efectiva con el equipo de back-end. Además, di mis primeros pasos en el uso de Tailwind CSS para crear una interfaz moderna y funcional. Esta experiencia me permitió ampliar mis habilidades y aplicarlas en un entorno de desarrollo práctico y colaborativo. Por ahora la app se sigue desarrollando para sus versiones de escritorio y tablets"
   },
   {
     "id": 3,
@@ -29,8 +43,16 @@
     "title": "Org",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
     "badges": ["React", "JavaScript", "Css"],
-    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
-    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
+    "tecnologies": ["React", "Material UI", "JavaScript", "CSS"],
+    "screenshots": [
+      "https://i.ibb.co/SXFwzFj/Mac-Book-Pro-1714601136237.jpg",
+      "https://i.ibb.co/wgV5jJV/Mac-Book-Pro-1714601152030.jpg",
+      "https://i.ibb.co/G5nYYct/Mac-Book-Pro-1714601161478.jpg"
+    ],
+    "extDescription": "Org nace con la misión de facilitar la gestión del personal con una interfaz moderna e intuitiva. Desarrollado como parte de mi formación en Alura Latam, este proyecto se enfoca en revisar los conceptos fundamentales de React Js de una manera práctica. Con Org, podrás llevar un control eficiente del personal, todo ello con una experiencia de usuario diseñada para simplificar tus tareas diarias.",
+    "deploy": "https://org-jeantulf.vercel.app",
+    "repo": "https://github.com/jeanTULF/org",
+    "highlight": "Durante el desarrollo de Org, profundicé en el manejo de estados, useEffect y el concepto del DOM en React. Esta experiencia me permitió aplicar de manera práctica los conceptos aprendidos en mi formación en Alura Latam y mejorar mi comprensión de React en proyectos reales."
   },
   {
     "id": 4,
@@ -39,8 +61,17 @@
     "title": "AluraGeek",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
     "badges": ["HTML", "JavaScript", "Css"],
-    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
-    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
+    "tecnologies": ["JavaScript", "CSS", "HTML"],
+    "screenshots": [
+      "https://i.ibb.co/fYtsxbV/Captura-de-pantalla-2024-05-01-170732.png",
+      "https://i.ibb.co/K5wTX7g/Mac-Book-Pro-1714601367773.jpg",
+      "https://i.ibb.co/2nGTwb3/Mac-Book-Pro-1714601392776.jpg",
+      "https://i.ibb.co/FgDQ876/Mac-Book-Pro-1714601436533.jpg"
+    ],
+    "extDescription": "AluraGeek es un ecommerce diseñado para aplicar y demostrar el uso efectivo de operaciones CRUD en el frontend y reforzar conceptos de responsividad con CSS vanilla",
+    "deploy": "https://alurageek-shop.vercel.app",
+    "repo": "https://github.com/jeanTULF/alurageek",
+    "highlight": "Desarrollado con javascript como parte de un reto de Alura Latam, aprendí el manejo de C.R.U.D básico y llamado a Endpoints"
   },
   {
     "id": 5,
@@ -49,8 +80,16 @@
     "title": "Portafolio V1",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
     "badges": ["HTML", "Css", "JavaScript" ],
-    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
-    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
+    "tecnologies": ["JavaScript", "CSS", "HTML"],
+    "screenshots": [
+      "https://i.ibb.co/2sPxrC9/Mac-Book-Pro-1714601517010.jpg",
+      "https://i.ibb.co/qy7K56Q/Mac-Book-Pro-1714601512288.jpg",
+      "https://i.ibb.co/yqXDjXs/i-Pad-1714601501204.jpg"
+    ],
+    "extDescription": "Primera versión de mi portafolio desarrollado durante el curso de Alura Latam",
+    "deploy": "https://portafolio-jeantulf.vercel.app",
+    "repo": "https://github.com/jeanTULF/Portafolio",
+    "highlight": "Realizado como un reto de parte del programa One Next Education, es la primera versión en donde apliqué conceptos como validación de formularios con javascript"
   },
   {
     "id": 6,
@@ -59,8 +98,16 @@
     "title": "Encriptador",
     "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
     "badges": ["HTML", "Css", "JavaScript"],
-    "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
-    "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"]
+    "tecnologies": ["JavaScript", "CSS", "HTML"],
+    "screenshots": [
+      "https://i.ibb.co/zxxPYS9/Mac-Book-Pro-1714601617249.jpg",
+      "https://i.ibb.co/QKxdKb1/Mac-Book-Pro-1714601602431.jpg",
+      "https://i.ibb.co/MkRjZwG/Mac-Book-Pro-1714601588245.jpg"
+    ],
+    "extDescription": "Reto de lógica desarrollado durante el curso de Alura Latam",
+    "deploy": "https://jeantulf.github.io/encriptadorBasico/",
+    "repo": "https://github.com/jeanTULF/encriptadorBasico",
+    "highlight": "Apliqué los primeros pasos para entender el funcionamiento de media queries con css"
   }
 ]
 
