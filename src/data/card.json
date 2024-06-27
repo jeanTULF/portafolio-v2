@@ -4,7 +4,7 @@
     "img": "/assets/images/miniatura-libralia.jpg",
     "alt": "Libralia",
     "title": "Libralia",
-    "description": "Libralia, página web para lectura de libros digitales",
+    "description": "plataforma para lectura de libros digitales con opciones de e-commerce",
     "badges": ["React", "JavaScript", "Tailwind", "Axios"],
     "tecnologies": ["React", "Vite", "React Router", "Axios", "Tailwind CSS", "Vercel"],
     "screenshots": [
@@ -23,7 +23,7 @@
     "img": "/assets/images/minuatura-hiupy.png",
     "alt": "Hiupy",
     "title": "Hiupy",
-    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "description": "Aplicación de inventario y planificación alimentaria.",
     "badges": ["React", "JavaScript", "Tailwind", "Fetch API"],
     "tecnologies": ["React", "Vite", "Fetch", "Tailwind CSS"],
     "screenshots": [
@@ -41,8 +41,8 @@
     "img": "/assets/images/miniatura-org.png",
     "alt": "org project",
     "title": "Org",
-    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
-    "badges": ["React", "JavaScript", "Css"],
+    "description": "Aplicación para organizar y planificar equipos de trabajo",
+    "badges": ["React", "JavaScript", "Material UI"],
     "tecnologies": ["React", "Material UI", "JavaScript", "CSS"],
     "screenshots": [
       "https://i.ibb.co/SXFwzFj/Mac-Book-Pro-1714601136237.jpg",
@@ -59,7 +59,7 @@
     "img": "/assets/images/miniatura-alurageek.png",
     "alt": "alurageek",
     "title": "AluraGeek",
-    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "description": "E-commerce virtual con temática variada",
     "badges": ["HTML", "JavaScript", "Css"],
     "tecnologies": ["JavaScript", "CSS", "HTML"],
     "screenshots": [
@@ -78,7 +78,7 @@
     "img": "/assets/images/miniatura-portafolio.png",
     "alt": "portafolio",
     "title": "Portafolio V1",
-    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "description": "Primera versión de mi portafolio personal",
     "badges": ["HTML", "Css", "JavaScript" ],
     "tecnologies": ["JavaScript", "CSS", "HTML"],
     "screenshots": [
@@ -96,7 +96,7 @@
     "img": "/assets/images/miniatura-encriptador.png",
     "alt": "encriptador",
     "title": "Encriptador",
-    "description": "Hiupy es una aplicación de inventario y planificación alimentaria.",
+    "description": "Reto de lógica de Alura",
     "badges": ["HTML", "Css", "JavaScript"],
     "tecnologies": ["JavaScript", "CSS", "HTML"],
     "screenshots": [

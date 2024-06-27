@@ -10,12 +10,12 @@ export const ViewProject = () => {
 
 return (
         <>
-            <nav className="fixed p-10">
+            <nav className="fixed p-10 z-50">
                 <NavLink 
                 to="/"
                 className="flex gap-4 border-transparent p-3 rounded-xl items-center text-textAccent text-sm font-semibold bg-gradient-to-b from-cardGradient-secondary to-buttonbgGradient-secondary transform transition duration-300 hover:scale-110 ">
                     <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                            <path fillRule="evenodd" clipRule="evenodd" d="M7 3.093l-5 5V8.8l5 5 .707-.707-4.146-4.147H14v-1H3.56L7.708 3.8 7 3.093z"></path>
+                        <path fillRule="evenodd" clipRule="evenodd" d="M7 3.093l-5 5V8.8l5 5 .707-.707-4.146-4.147H14v-1H3.56L7.708 3.8 7 3.093z"></path>
                     </svg>
                     <span>Volver atrás</span>
                 </NavLink>
@@ -24,7 +24,7 @@ return (
                 w-full h-full dark:bg-gradient-to-b dark:from-primaryDark dark:to-primaryDark flex flex-col items-center">
                     <section className="flex flex-col items-center gap-6 py-[200px]">
                         <h1 className="text-titleAccent font-semibold text-5xl">{title}</h1>
-                        <img src={img} alt={alt} className="max-w-[50rem] drop-shadow-md"/>
+                        <img src={img} alt={alt} className="w-[90vw] max-w-[50rem] drop-shadow-md"/>
                             <div className="flex mt-24 gap-x-20">
                                 <Button href={deploy} target="_blank">
                                     Ver Demo 

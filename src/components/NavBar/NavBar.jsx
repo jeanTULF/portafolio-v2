@@ -45,7 +45,8 @@ export const NavBar = () => {
 
             <Navbar.Collapse>
                 <Button as={Link} href="#" className="bg-gradient-to-b from-buttonbgGradient-primary to-buttonbgGradient-secondary 
-                text-titleAccent transform transition duration-300 hover:scale-110 dark:from-buttonDark dark:to-buttonDark dark:text-white" pill>Descargar CV</Button>
+                text-titleAccent transform transition duration-300 hover:scale-110 dark:from-buttonDark dark:to-buttonDark 
+                dark:text-white" pill>Descargar CV</Button>
                 <Button 
                 onClick={handleChangeTheme}
                 color="teal" 

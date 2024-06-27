@@ -18,7 +18,7 @@ return (
                     <Contact />
                 </section>
                 <section className="mt-[100px] flex flex-col items-center pb-[100px]">
-                    <hr className="border border-titleAccent my-6 w-[80%]" />
+                    <hr className="border border-titleAccent dark:border-white my-6 w-[80%]" />
                     <Footer />
                 </section>
         </div>

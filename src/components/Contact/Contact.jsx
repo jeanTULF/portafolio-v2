@@ -6,13 +6,13 @@ return (
         <> 
             <div className="flex flex-col items-center w-full h-full gap-[50px] backgroundContact">
                 <div className=" py-12 flex flex-col items-center gap-5 z-10 drop-shadow-md w-[80%] md:w-[60%] lg:w-[40%]">
-                    <h1 className="text-titleAccent font-bold text-3xl sm:text-5xl">Contactame</h1>
-                    <p className="text-textAccent text-sm sm:text-base text-center">
+                    <h1 className="text-titleAccent font-bold text-3xl sm:text-5xl dark:text-textDark">Contactame</h1>
+                    <p className="text-textAccent text-sm sm:text-base text-center dark:text-textDark">
                     Estoy entusiasmado de colaborar contigo y tu equipo en proyectos futuros. ¡Espero con interés nuestra próxima conversación sobre cómo podemos trabajar juntos!
                     </p>
                 </div>
                 <div className="flex flex-col items-center z-10 drop-shadow-md gap-5">
-                    <h1 className="text-titleAccent font-bold text-3xl sm:text-5xl">Redes</h1>
+                    <h1 className="text-titleAccent font-bold text-3xl sm:text-5xl dark:text-textDark">Redes</h1>
                     <ul className="flex gap-4 text-white">
                         <li>
                         <a href="#" className="hover:text-titleAccent transform transition duration-300">

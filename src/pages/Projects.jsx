@@ -12,14 +12,14 @@ export const Projects = () => {
                     </div>
                 </section>
                 <section className="mt-[100px] flex flex-col items-center">
-                    <h3 className="font-semibold text-2xl text-titleAccent">Formación y experiencias</h3>
+                    <h3 className="font-semibold text-2xl text-titleAccent dark:text-white">Formación y experiencias</h3>
                     <ExpCard />
                 </section>
                 <section className="mt-[100px]">
                     <Contact />
                 </section>
                 <section className="mt-[100px] flex flex-col items-center pb-[100px]">
-                    <hr className="border border-titleAccent my-6 w-[80%]" />
+                    <hr className="border border-titleAccent dark:border-white my-6 w-[80%]" />
                     <Footer />
                 </section>
             </div>

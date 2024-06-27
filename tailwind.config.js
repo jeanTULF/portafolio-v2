@@ -9,7 +9,7 @@ export default {
     extend: {
         colors: {
           primaryDark: '#212121',
-          buttonDark: '#1484F5',
+          buttonDark: '#3D63DD',
           buttonHoverDark: '#235B9C',
           textDark: '#F5F5F5',
           gradient: {
