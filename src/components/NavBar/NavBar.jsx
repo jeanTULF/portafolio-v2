@@ -43,7 +43,7 @@ export const NavBar = () => {
                 className="buttonUi">Acerca de mi</Navbar.Link>
             </Navbar.Collapse>
 
-            <Navbar.Collapse theme={{list: '"mt-4 flex flex-col space-y-4 md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium"'}}>
+            <Navbar.Collapse theme={{list: 'mt-4 flex flex-col space-y-4 md:space-y-0 md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium'}}>
                 <Button as={Link} href="#" className="bg-gradient-to-b from-buttonbgGradient-primary to-buttonbgGradient-secondary 
                 text-titleAccent transform transition duration-300 hover:scale-110 dark:from-buttonDark dark:to-buttonDark 
                 dark:text-white" pill>Descargar CV</Button>
