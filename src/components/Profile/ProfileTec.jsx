@@ -5,7 +5,7 @@ export const ProfileTec = () => {
 return (
         <>
         <div className="flex flex-col items-center gap-[100px]">
-            <h1 className="text-titleAccent text-2xl font-semibold">Tecnologías</h1>
+            <h1 className="text-titleAccent text-2xl font-semibold dark:text-textDark">Tecnologías</h1>
             <div className="slider">
                 <ul className="slide-track">
                     <li className="slide">

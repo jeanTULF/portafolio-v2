@@ -9,27 +9,31 @@ return (
                 <ul className="flex flex-col sm:grid grid-cols-2 gap-10">
                     <li className="flex-grow">
                         <div className="mb-2 block">
-                            <Label htmlFor="base" value="Nombre"  className="text-textAccent font-semibold text-base"/>
+                            <Label htmlFor="nombre" value="Nombre"  className="text-textAccent font-semibold text-base"/>
                         </div>
-                        <TextInput id="base" type="text" sizing="md" className="dark:bg-gradient-to-b dark:from-darkCardGradient-primary dark:to-darkCardGradient-secondary dark:border-borderDark"/>
+                        <TextInput 
+                        type="text" 
+                        sizing="md" 
+                        theme={{field:{input:{colors:{gray:'border-gray-300 bg-gray-50 text-gray-900 outline-none dark:border-gray-600 dark:bg-borderDark dark:text-white'}}}}}
+                        className="outline-none dark:bg-gradient-to-b dark:from-darkCardGradient-primary dark:to-darkCardGradient-secondary dark:border-borderDark"/>
                     </li>
                     <li className="flex-grow">
                         <div className="mb-2 block ">
-                            <Label htmlFor="base" value="Apellido"  className="text-textAccent font-semibold text-base"/>
+                            <Label htmlFor="apellido" value="Apellido"  className="text-textAccent font-semibold text-base"/>
                         </div>
-                        <TextInput id="base" type="text" sizing="md" />
+                        <TextInput type="text" sizing="md" />
                     </li>
                     <li className="flex-grow">
                         <div className="mb-2 block ">
-                            <Label htmlFor="base" value="Correo electrónico"  className="text-textAccent font-semibold text-base"/>
+                            <Label htmlFor="email" value="Correo electrónico"  className="text-textAccent font-semibold text-base"/>
                         </div>
-                        <TextInput id="base" type="text" sizing="md" />
+                        <TextInput type="text" sizing="md" />
                     </li>
                     <li className="flex-grow">
                         <div className="mb-2 block ">
-                            <Label htmlFor="base" value="Teléfono"  className="text-textAccent font-semibold text-base"/>
+                            <Label htmlFor="telefono" value="Teléfono"  className="text-textAccent font-semibold text-base"/>
                         </div>
-                        <TextInput id="base" type="text" sizing="md" />
+                        <TextInput type="text" sizing="md" />
                     </li>
                 </ul>
                 <div className="w-full">
