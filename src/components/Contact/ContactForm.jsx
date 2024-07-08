@@ -21,19 +21,31 @@ return (
                         <div className="mb-2 block ">
                             <Label htmlFor="apellido" value="Apellido"  className="text-textAccent font-semibold text-base"/>
                         </div>
-                        <TextInput type="text" sizing="md" />
+                        <TextInput 
+                        type="text" 
+                        sizing="md" 
+                        theme={{field:{input:{colors:{gray:'border-gray-300 bg-gray-50 text-gray-900 outline-none dark:border-gray-600 dark:bg-borderDark dark:text-white'}}}}}
+                        />
                     </li>
                     <li className="flex-grow">
                         <div className="mb-2 block ">
                             <Label htmlFor="email" value="Correo electrónico"  className="text-textAccent font-semibold text-base"/>
                         </div>
-                        <TextInput type="text" sizing="md" />
+                        <TextInput 
+                        type="text" 
+                        sizing="md" 
+                        theme={{field:{input:{colors:{gray:'border-gray-300 bg-gray-50 text-gray-900 outline-none dark:border-gray-600 dark:bg-borderDark dark:text-white'}}}}}
+                        />
                     </li>
                     <li className="flex-grow">
                         <div className="mb-2 block ">
                             <Label htmlFor="telefono" value="Teléfono"  className="text-textAccent font-semibold text-base"/>
                         </div>
-                        <TextInput type="text" sizing="md" />
+                        <TextInput 
+                        type="text" 
+                        sizing="md" 
+                        theme={{field:{input:{colors:{gray:'border-gray-300 bg-gray-50 text-gray-900 outline-none dark:border-gray-600 dark:bg-borderDark dark:text-white'}}}}}
+                        />
                     </li>
                 </ul>
                 <div className="w-full">
@@ -41,7 +53,7 @@ return (
                         <Label htmlFor="message" value="Mensaje" className="text-textAccent font-semibold text-base"/>
                     </div>
                     <Textarea id="message" placeholder="Mensaje..." className="dark:placeholder:text-white 
-                    dark:bg-borderDark dark:border-none" required rows={6}  />
+                    dark:bg-borderDark dark:border-none outline-none" required rows={6}  />
                 </div>
                 <Button type="sumbit" className="w-36 bg-gradient-to-b from-buttonbgGradient-primary to-buttonbgGradient-secondary 
                 text-titleAccent transform transition duration-300 hover:scale-110 dark:from-buttonDark dark:to-buttonDark dark:text-white">

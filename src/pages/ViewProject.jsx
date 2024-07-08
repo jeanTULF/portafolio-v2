@@ -26,28 +26,31 @@ return (
                         <h1 className="text-titleAccent font-semibold text-3xl lg:text-5xl dark:text-textDark">{title}</h1>
                         <img src={img} alt={alt} className="w-[90vw] max-w-[50rem] drop-shadow-md"/>
                             <div className="flex mt-24 gap-x-20">
-                                <Button href={deploy} target="_blank">
+                                <Button href={deploy} target="_blank" className="
+                                bg-gradient-to-b from-buttonbgGradient-primary to-buttonbgGradient-secondary 
+                                text-titleAccent transform transition duration-300 hover:scale-110 dark:from-buttonDark dark:to-buttonDark dark:text-white">
                                     Ver Demo 
                                 </Button>
-                                <Button href={repo} target="_blank">
+                                <Button href={repo} target="_blank" className="bg-gradient-to-b from-buttonbgGradient-primary to-buttonbgGradient-secondary 
+                                text-titleAccent transform transition duration-300 hover:scale-110 dark:from-buttonDark dark:to-buttonDark dark:text-white">
                                     Repositorio 
                                 </Button>
                             </div>
                     </section>
                     <section className="max-w-4xl mx-auto w-[90vw] grid lg:grid-cols-2 gap-8 px">
-                        <div className="p-4 border border-transparent rounded-lg shadow-sm">
+                        <div className="p-4 border border-neutral-200 rounded-lg dark:border-borderDark">
                             <h2 className="text-xl text-titleAccent font-bold mb-2 dark:text-textDark">Mi rol</h2>
                             <p className="text-textAccent font-normal dark:text-textDark">FrontEnd</p>
                         </div>
-                        <div className="p-4 border border-transparent rounded-lg shadow-sm">
+                        <div className="p-4 border border-neutral-200 rounded-lg dark:border-borderDark">
                             <h2 className="text-xl text-titleAccent font-bold mb-2 dark:text-textDark">Resumen</h2>
                             <p className="text-sm text-textAccent dark:text-textDark">{extDescription}</p>
                         </div>
-                        <div className="p-4 border border-transparent rounded-lg shadow-sm">
+                        <div className="p-4 border border-neutral-200 rounded-lg dark:border-borderDark">
                             <h2 className="text-xl text-titleAccent font-bold mb-2 dark:text-textDark">Equipo</h2>
                             <p></p>
                         </div>
-                        <div className="p-4 border border-transparent rounded-lg shadow-sm">
+                        <div className="p-4 border border-neutral-200 rounded-lg dark:border-borderDark">
                             <h2 className="text-xl text-titleAccent font-bold mb-2 dark:text-textDark">Tecnologías utilizadas</h2>
                             {selectedProject.tecnologies.map((tecno, index) => {
                                 return(
