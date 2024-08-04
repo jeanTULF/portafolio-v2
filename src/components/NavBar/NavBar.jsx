@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import { Button, Navbar } from "flowbite-react";
 /* import { useEffect, useState } from "react"; */
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "@/styles.css"
+import pdf from '../../documents/curruculum.pdf'
 
 
 export const NavBar = () => {
@@ -45,7 +46,7 @@ export const NavBar = () => {
             </Navbar.Collapse>
 
             <Navbar.Collapse theme={{list: 'mt-4 flex flex-col space-y-4 md:space-y-0 md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium'}}>
-                <Button as={Link} href="#" className="bg-buttonDark  transform transition duration-300 hover:scale-110  
+                <Button as="a" href={pdf} target="_blank" className="bg-buttonDark  transform transition duration-300 hover:scale-110  
                 text-white" pill>Descargar CV</Button>
                 {/* <Button 
                 onClick={handleChangeTheme}
