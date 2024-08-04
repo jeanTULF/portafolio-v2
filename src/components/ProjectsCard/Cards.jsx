@@ -44,21 +44,21 @@ export const Cards = () => {
           <div key={index}>
                 <Card
                 id="card"
-                className="max-w-sm w-[80vw] bg-gradient-to-b from-cardGradient-secondary to-cardGradient-primary 
-                drop-shadow-sm border border-borderColor border-opacity-30
-                dark:bg-gradient-to-b dark:from-darkCardGradient-primary dark:to-darkCardGradient-secondary dark:border-borderDark"
+                className="max-w-sm w-[80vw] 
+                drop-shadow-sm border border-opacity-30
+                bg-gradient-to-b from-darkCardGradient-primary to-darkCardGradient-secondary border-borderDark"
                 imgAlt={item.alt}
                 imgSrc={item.img}
                 theme={{ root: {base: 'flex rounded-lg dark:border-gray-700 transition-transform ease-in duration-300 transform hover:scale-105'}, img: {horizontal: {off: 'rounded-t-lg object-cover h-52 drop-shadow-sm'}} }}
                 horizontal={shouldAddHorizontal ? true : null}
                 >
-                <h5 className="text-base sm:text-2xl font-bold tracking-tight text-titleAccent dark:text-white">
+                <h5 className="text-base sm:text-2xl font-bold tracking-tight  text-white">
                   {item.title}
                 </h5>
-                <p className="text-sm sm:text-base font-normal text-textAccent dark:text-white">
+                <p className="text-sm sm:text-base font-normal  text-white">
                   {item.description}
                 </p>
-                <Button as={NavLink} onClick={() => handleNavigate(item.id)} className="bg-textAccent hover:bg-titleAccent transition duration-300
+                <Button as={NavLink} onClick={() => handleNavigate(item.id)} className="bg-buttonDark hover:bg-buttonHoverDark transition duration-300
                   dark:bg-buttonDark dark:hover:bg-buttonHoverDark">Ver proyecto</Button>
                 <div className="flex gap-2 flex-wrap mt-3">
                     {item.badges.map((badge, index) => (

@@ -3,8 +3,8 @@ export const About = () => {
 
 return (
         <>
-        <div className="bg-gradient-to-b from-bgGradient-primary to-bgGradient-secondary w-full
-        h-full dark:bg-gradient-to-b dark:from-primaryDark dark:to-primaryDark">
+        <div className="w-full
+        h-full bg-primaryDark">
             <NavBar />
                 <section className="mt-[100px] flex justify-center">
                 <Profile />
@@ -19,7 +19,7 @@ return (
                     <Contact />
                 </section>
                 <section className="mt-[100px] flex flex-col items-center pb-[100px]">
-                    <hr className="border border-titleAccent dark:border-white my-6 w-[80%]" />
+                    <hr className="border border-white my-6 w-[80%]" />
                     <Footer />
                 </section>
         </div>
