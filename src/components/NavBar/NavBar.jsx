@@ -31,7 +31,7 @@ export const NavBar = () => {
             <Navbar.Brand as={NavLink} to="/" className="w-2/12 max-w-48 min-w-28">
                 <img src={"/assets/images/logo.svg"} alt="log" />
             </Navbar.Brand>
-            <Navbar.Toggle />
+            <Navbar.Toggle theme={{base: "inline-flex items-center rounded-lg p-2 text-sm text-gray-500 md:hidden"}} />
             <Navbar.Collapse>
                 <Navbar.Link 
                 as={NavLink} 
