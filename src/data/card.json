@@ -16,7 +16,8 @@
     "extDescription": "Libralia es una página web para lectura de libros digitales, totalmente gratis y sin necesidad de registrarse o iniciar sesión.Con una interfaz sencilla e intuitiva te permite acceder y leer tus libros favoritos en cuestion de segundos. Además de contar con la opcion de adquirir las versiones físicas a través de nuestra interfaz para compras",
     "deploy": "https://libralia.vercel.app",
     "repo": "https://github.com/No-Country/s14-14-n-java",
-    "highlight": "MVP realizado durante mi segunda instancia dentro de No Country en el que tuve la oportunidad de co-liderar el desarrollo de parte del equipo front-end. Adquirí experiencia significativa en el uso de React y apliqué el uso de React Flowbite, así como en la integración de API mediante Axios."
+    "highlight": "MVP realizado durante mi segunda instancia dentro de No Country en el que tuve la oportunidad de co-liderar el desarrollo de parte del equipo front-end. Adquirí experiencia significativa en el uso de React y apliqué el uso de React Flowbite, así como en la integración de API mediante Axios.",
+    "state": "lanzado"
   },
   {
     "id": 2,
@@ -34,7 +35,8 @@
     "extDescription": "(Versión en movil al momento) Hiupy simplifica la gestión de tu cocina al ofrecerte herramientas intuitivas para organizar tu inventario y planificar comidas deliciosas. Con Hiupy, puedes mantener un inventario completo de tus alimentos y productos de cocina, asegurándote de saber siempre lo que tienes a mano. Además, recibirás recomendaciones personalizadas de recetas basadas en los ingredientes que tienes disponibles en tu inventario, así como en tus preferencias alimentarias y restricciones dietéticas. Hiupy también te permite crear listas de compras inteligentes para que nunca te falten los ingredientes esenciales que necesitas para tus recetas. Descubre una forma más eficiente y creativa de cocinar con Hiupy!",
     "deploy": "https://hiupy.vercel.app",
     "repo": "https://github.com/No-Country/c16-04-m-node-react",
-    "highlight": "Durante el desarrollo de Hiupy, adquirí conocimientos avanzados sobre conexiones con API, uso de endpoints y comunicación efectiva con el equipo de back-end. Además, di mis primeros pasos en el uso de Tailwind CSS para crear una interfaz moderna y funcional. Esta experiencia me permitió ampliar mis habilidades y aplicarlas en un entorno de desarrollo práctico y colaborativo. Por ahora la app se sigue desarrollando para sus versiones de escritorio y tablets"
+    "highlight": "Durante el desarrollo de Hiupy, adquirí conocimientos avanzados sobre conexiones con API, uso de endpoints y comunicación efectiva con el equipo de back-end. Además, di mis primeros pasos en el uso de Tailwind CSS para crear una interfaz moderna y funcional. Esta experiencia me permitió ampliar mis habilidades y aplicarlas en un entorno de desarrollo práctico y colaborativo. Por ahora la app se sigue desarrollando para sus versiones de escritorio y tablets",
+    "state": "lanzado"
   },
   {
     "id": 3,
@@ -52,7 +54,8 @@
     "extDescription": "Org nace con la misión de facilitar la gestión del personal con una interfaz moderna e intuitiva. Desarrollado como parte de mi formación en Alura Latam, este proyecto se enfoca en revisar los conceptos fundamentales de React Js de una manera práctica. Con Org, podrás llevar un control eficiente del personal, todo ello con una experiencia de usuario diseñada para simplificar tus tareas diarias.",
     "deploy": "https://org-jeantulf.vercel.app",
     "repo": "https://github.com/jeanTULF/org",
-    "highlight": "Durante el desarrollo de Org, profundicé en el manejo de estados, useEffect y el concepto del DOM en React. Esta experiencia me permitió aplicar de manera práctica los conceptos aprendidos en mi formación en Alura Latam y mejorar mi comprensión de React en proyectos reales."
+    "highlight": "Durante el desarrollo de Org, profundicé en el manejo de estados, useEffect y el concepto del DOM en React. Esta experiencia me permitió aplicar de manera práctica los conceptos aprendidos en mi formación en Alura Latam y mejorar mi comprensión de React en proyectos reales.",
+    "state": "lanzado"
   },
   {
     "id": 4,
@@ -71,7 +74,8 @@
     "extDescription": "AluraGeek es un ecommerce diseñado para aplicar y demostrar el uso efectivo de operaciones CRUD en el frontend y reforzar conceptos de responsividad con CSS vanilla",
     "deploy": "https://alurageek-shop.vercel.app",
     "repo": "https://github.com/jeanTULF/alurageek",
-    "highlight": "Desarrollado con javascript como parte de un reto de Alura Latam, aprendí el manejo de C.R.U.D básico y llamado a Endpoints"
+    "highlight": "Desarrollado con javascript como parte de un reto de Alura Latam, aprendí el manejo de C.R.U.D básico y llamado a Endpoints",
+    "state": "lanzado"
   },
   {
     "id": 5,
@@ -89,7 +93,8 @@
     "extDescription": "Primera versión de mi portafolio desarrollado durante el curso de Alura Latam",
     "deploy": "https://portafolio-jeantulf.vercel.app",
     "repo": "https://github.com/jeanTULF/Portafolio",
-    "highlight": "Realizado como un reto de parte del programa One Next Education, es la primera versión en donde apliqué conceptos como validación de formularios con javascript"
+    "highlight": "Realizado como un reto de parte del programa One Next Education, es la primera versión en donde apliqué conceptos como validación de formularios con javascript",
+    "state": "lanzado"
   },
   {
     "id": 6,
@@ -107,7 +112,8 @@
     "extDescription": "Reto de lógica desarrollado durante el curso de Alura Latam",
     "deploy": "https://jeantulf.github.io/encriptadorBasico/",
     "repo": "https://github.com/jeanTULF/encriptadorBasico",
-    "highlight": "Apliqué los primeros pasos para entender el funcionamiento de media queries con css"
+    "highlight": "Apliqué los primeros pasos para entender el funcionamiento de media queries con css",
+    "state": "lanzado"
   }
 ]
 
