@@ -4,8 +4,8 @@
   "alt": "SnapTrip",
   "title": "SnapTrip",
   "description": "Red social para eventos fotográficos",
-  "badges": ["React", "JavaScript", "Tailwind", "Fetch API", "Material UI"],
-  "tecnologies": ["React", "Vite", "React Router", "Fetch API", "Tailwind CSS", "Vercel", "Material UI"],
+  "badges": ["React", "JavaScript", "Tailwind", "Fetch API", "Material UI", "Zustand", "Python"],
+  "tecnologies": ["React", "Vite", "React Router", "Fetch API", "Tailwind CSS", "Vercel", "Material UI", "Zustand", "Python"],
   "screenshots": [
     "https://i.ibb.co/QHv8jJ2/2.png",
     "https://i.ibb.co/7ncHty2/1.png",
