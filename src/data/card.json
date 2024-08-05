@@ -1,6 +1,26 @@
-[
+[ {
+  "id": 1,
+  "img": "/assets/images/miniatura-snaptrip.png",
+  "alt": "SnapTrip",
+  "title": "SnapTrip",
+  "description": "Red social para eventos fotográficos",
+  "badges": ["React", "JavaScript", "Tailwind", "Fetch API", "Material UI"],
+  "tecnologies": ["React", "Vite", "React Router", "Fetch API", "Tailwind CSS", "Vercel", "Material UI"],
+  "screenshots": [
+    "https://i.ibb.co/QHv8jJ2/2.png",
+    "https://i.ibb.co/7ncHty2/1.png",
+    "https://i.ibb.co/wQZGV2d/3.png",
+    "https://i.ibb.co/p1yGD84/4.png",
+    "https://i.ibb.co/d49sdGy/5.png"
+  ],
+  "extDescription": "Imagina un mundo donde cada momento especial es capturado y celebrado por una comunidad global de fotógrafos. SnapTrip es una aplicación que no solo conecta a fotógrafos de todos los niveles, sino que también crea un espacio donde la pasión por la fotografía se convierte en una experiencia compartida.",
+  "deploy": "",
+  "repo": "https://github.com/No-Country-simulation/s16-17-t-python-react",
+  "highlight": "MVP realizado durante mi tercera instancia dentro de No Country, pensado para el mundo de la fotografía, compartir viajes y fotos de inspiración",
+  "state": "En desarrollo"
+  },
   {
-    "id": 1,
+    "id": 2,
     "img": "/assets/images/miniatura-libralia.jpg",
     "alt": "Libralia",
     "title": "Libralia",
@@ -20,7 +40,7 @@
     "state": "lanzado"
   },
   {
-    "id": 2,
+    "id": 3,
     "img": "/assets/images/minuatura-hiupy.png",
     "alt": "Hiupy",
     "title": "Hiupy",
@@ -39,7 +59,7 @@
     "state": "lanzado"
   },
   {
-    "id": 3,
+    "id": 4,
     "img": "/assets/images/miniatura-org.png",
     "alt": "org project",
     "title": "Org",
@@ -58,7 +78,7 @@
     "state": "lanzado"
   },
   {
-    "id": 4,
+    "id": 5,
     "img": "/assets/images/miniatura-alurageek.png",
     "alt": "alurageek",
     "title": "AluraGeek",
@@ -78,7 +98,7 @@
     "state": "lanzado"
   },
   {
-    "id": 5,
+    "id": 6,
     "img": "/assets/images/miniatura-portafolio.png",
     "alt": "portafolio",
     "title": "Portafolio V1",
@@ -97,7 +117,7 @@
     "state": "lanzado"
   },
   {
-    "id": 6,
+    "id": 7,
     "img": "/assets/images/miniatura-encriptador.png",
     "alt": "encriptador",
     "title": "Encriptador",

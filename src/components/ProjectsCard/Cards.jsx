@@ -6,7 +6,7 @@ import dataCard from "@/data/card.json";
 import { Tags } from "./Tags";
 
 export const Cards = () => {
-
+  const [visibleCards, setVisibleCards] = useState(4);
   const [shouldAddHorizontal, setShouldAddHorizontal] = useState(false);
 
   const navigate = useNavigate();
@@ -15,15 +15,17 @@ export const Cards = () => {
         navigate(`/project/${id}`);
     };
 
+    const showMore = () => {
+      setVisibleCards(prevVisible => prevVisible + 3);
+    }
+
   useEffect(() => {
     function handleResize() {
       const screenWidth = window.innerWidth;
       setShouldAddHorizontal(screenWidth > 767 && screenWidth < 1023);
     }
     handleResize();
-    // Agregar un event listener para el evento de cambio de tamaño de la ventana
     window.addEventListener('resize', handleResize);
-    // Limpia el event listener en el cleanup de useEffect
     return () => {
       window.removeEventListener('resize', handleResize);
     };
@@ -40,7 +42,7 @@ export const Cards = () => {
 
     return (
       <>
-        {dataCard.map((item, index) => (
+        {dataCard.slice(0, visibleCards).map((item, index) => (
           <div key={index}>
                 <Card
                 id="card"
@@ -70,6 +72,20 @@ export const Cards = () => {
               </Card>
           </div>
       ))}
+      {visibleCards < dataCard.length && (
+          <div className="lg:col-span-2">
+          <Button 
+          className="mx-auto 
+          bg-gradient-to-b 
+          from-darkCardGradient-primary
+          to-darkCardGradient-secondary"
+          onClick={showMore}
+          >
+            Mostrar Mas
+          </Button>
+        </div>
+      )}
+      
       </>
       );
 };
